@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+.media {
+    display: flex;
+    height: 100vh;
+    align-items: flex-start;
+}
+
+.media-object {
+    height: 320px;
+    width: 440px;
+    border-radius: 10px;
+    margin: 20px;
+    order: 1;
+}
+
+.media-object img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.media-body {
+    flex: 1
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.media-body h1, p {
+    background-color: rgb(21, 148, 148);
+    color: white;
+    margin: 20px;
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.media-body p {
+    font-size: 40px;
+    flex: 1;
+    height: 70vh;
+    text-align: center;
+}

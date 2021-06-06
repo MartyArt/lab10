@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header,footer {
+    height: 20vh;
+    background-color: rgb(70, 70, 70);
+    color: white;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+article {
+    background-color: rgb(224, 224, 224);
+}
+
+article {
+    flex: 1;
+}
+
+nav, aside {
+    width: 20vw;
+    background: rgb(34, 34, 34);
+    color: white;
+
+}
+
+nav {
+    order: -1;
+}
